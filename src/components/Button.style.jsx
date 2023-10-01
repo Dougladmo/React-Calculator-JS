@@ -7,7 +7,7 @@ export const NumberButton = styled.button`
   height: 80px;
   border: none;
   margin: 5px;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -15,6 +15,13 @@ export const NumberButton = styled.button`
     filter: brightness(200%);
     transition: 0.5s;
   }
+
+  @media (max-width: 400px) {
+  & {
+    width: 60px;
+    height: 60px;
+  }
+}
 `
 
 export const OperatorButton = styled.button`
@@ -24,13 +31,21 @@ export const OperatorButton = styled.button`
   height: 80px;
   border: none;
   margin: 5px;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 50%;
   cursor: pointer;
 
   &:hover {
-    filter: grayscale(30%);
+    filter: grayscale(25%);
     transition: 0.5s;
+  }
+  
+  @media (max-width: 400px) {
+  & {
+    width: 60px;
+    height: 60px;
+  }
+
   }
 `
 
@@ -42,7 +57,7 @@ export const GrayButton = styled.button`
   height: 80px;
   border: none;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   cursor: pointer;
 
@@ -50,6 +65,13 @@ export const GrayButton = styled.button`
     filter: brightness(150%);
     transition: 0.5s;
   }
+
+  @media (max-width: 400px) {
+  & {
+    width: 60px;
+    height: 60px;
+  }
+}
 `
 
 export const ZeroButton = styled.button`
@@ -60,7 +82,7 @@ export const ZeroButton = styled.button`
   border: none;
   margin: 5px;
   border-radius: 999px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   padding-left: 34px;
   cursor: pointer;
@@ -69,4 +91,11 @@ export const ZeroButton = styled.button`
     filter: brightness(200%);
     transition: 0.5s;
   }
+  @media (max-width: 400px) {
+  & {
+    padding-left: 24px;
+    width: 127px;
+    height: 60px;
+  }
+}
 `

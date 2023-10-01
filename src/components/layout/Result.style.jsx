@@ -15,4 +15,10 @@ export const Result = styled.h1`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+
+  @media (max-width: 425px) {
+  & {
+    display: block;
+  }
+}
 `
