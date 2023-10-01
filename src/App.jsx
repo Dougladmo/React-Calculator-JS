@@ -7,6 +7,8 @@ import {
   ZeroButton,
 } from "./components/Button.style"
 import { Result, ResultBox } from "./components/layout/Result.style"
+import { FaReact } from "react-icons/fa";
+import { FaDivide } from "react-icons/fa6";
 
 function App() {
   const [num, setNum] = useState(0)
@@ -59,6 +61,7 @@ function App() {
 
   return (
     <>
+      <Result>React Calculator <FaReact className="react" /> </Result>
       <Container>
         <ResultBox>
           <Result>{num}</Result>
@@ -68,7 +71,7 @@ function App() {
           <GrayButton onClick={changeSign}>+/-</GrayButton>
           <GrayButton onClick={percentage}>%</GrayButton>
           <OperatorButton onClick={operatorHandler} value={"/"}>
-            /
+            <FaDivide className="divide" />
           </OperatorButton>
           <NumberButton onClick={numberInput} value={7}>
             7

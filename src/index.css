@@ -1,4 +1,23 @@
 :root {
   background-color: #444;
-  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.react {
+  color: #149eca;
+  animation: spinner 9s linear infinite;
+}
+
+.divide {
+  display: flex;
+  margin: 0 auto;
+}
+
+@keyframes spinner {
+	to {
+		transform: rotate(360deg);
+	}
 }

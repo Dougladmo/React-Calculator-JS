@@ -11,4 +11,8 @@ export const ResultBox = styled.div`
 export const Result = styled.h1`
   font-size: 60px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 `
