@@ -1,10 +1,11 @@
 import { useState } from "react"
-import { Container } from "./components/layout/Container.style"
+import { Container, ContainerCientific } from "./components/layout/Container.style"
 import {
   NumberButton,
   OperatorButton,
   GrayButton,
   ZeroButton,
+  CientificButton
 } from "./components/Button.style"
 import { Result, ResultBox } from "./components/layout/Result.style"
 import { FaReact } from "react-icons/fa";
@@ -62,11 +63,11 @@ function App() {
   return (
     <>
       <Result>React Calculator <FaReact className="react" /> </Result>
+        <div className="buttons">
       <Container>
         <ResultBox>
           <Result>{num}</Result>
         </ResultBox>
-        <div className="buttons">
           <GrayButton onClick={clear}>AC</GrayButton>
           <GrayButton onClick={changeSign}>+/-</GrayButton>
           <GrayButton onClick={percentage}>%</GrayButton>
@@ -116,8 +117,20 @@ function App() {
             ,
           </NumberButton>
           <OperatorButton onClick={calculate}>=</OperatorButton>
-        </div>
       </Container>
+      <div className="cientific_box">
+      <ContainerCientific>
+          <CientificButton>a</CientificButton>
+          <CientificButton>a</CientificButton>
+          <CientificButton>a</CientificButton>
+          <CientificButton>a</CientificButton>
+          <CientificButton>a</CientificButton>
+          <CientificButton>a</CientificButton>
+          <CientificButton>a</CientificButton>
+          <CientificButton className="react-button"><FaReact className="react" /></CientificButton>
+      </ContainerCientific>
+      </div>
+        </div>
     </>
   )
 }

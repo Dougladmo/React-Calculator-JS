@@ -18,8 +18,8 @@ export const NumberButton = styled.button`
 
   @media (max-width: 400px) {
   & {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 }
 `
@@ -42,8 +42,8 @@ export const OperatorButton = styled.button`
   
   @media (max-width: 400px) {
   & {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 
   }
@@ -68,8 +68,8 @@ export const GrayButton = styled.button`
 
   @media (max-width: 400px) {
   & {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 }
 `
@@ -93,9 +93,34 @@ export const ZeroButton = styled.button`
   }
   @media (max-width: 400px) {
   & {
-    padding-left: 24px;
-    width: 127px;
-    height: 60px;
+    padding-left: 29px;
+    width: 148px;
+    height: 70px;
+  }
+}
+`
+
+export const CientificButton = styled.button`
+   background-color: #333333;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin: 5px;
+  font-size: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(200%);
+    transition: 0.5s;
+  }
+
+  @media (max-width: 600px) {
+  & {
+    width: 70px;
+    height: 70px;
+    display: none;
   }
 }
 `

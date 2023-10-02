@@ -18,7 +18,7 @@ export const Result = styled.h1`
 
   @media (max-width: 425px) {
   & {
-    display: block;
+    
   }
 }
 `

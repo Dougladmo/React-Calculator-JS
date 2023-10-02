@@ -11,13 +11,32 @@
   animation: spinner 9s linear infinite;
 }
 
+.react-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .divide {
   display: flex;
   margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: end;
 }
 
 @keyframes spinner {
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+@media (max-width: 600px) {
+  .cientific_box {
+    display: none;
+  }
 }
