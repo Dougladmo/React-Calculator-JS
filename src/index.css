@@ -6,19 +6,29 @@
   font-family: sans-serif;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
 .react {
+  font-size: 80px;
+  margin-top: 1.5rem;
   color: #149eca;
   animation: spinner 9s linear infinite;
 }
 
-.react-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.react_btn {
+  font-size: 40px;
+  color: #149eca;
+  animation: spinner 9s linear infinite;
 }
 
 .divide {
-  display: flex;
+  padding-top: 7px;
   margin: 0 auto;
 }
 
@@ -38,5 +48,30 @@
 @media (max-width: 600px) {
   .cientific_box {
     display: none;
+  }
+  .title {
+    max-width: 390px;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    background-color: #000;
+  }
+
+  .title h1{
+    font-size: 50px;
+    gap: 0;
+    margin: 1rem 0;
+  }
+  
+  .react {
+    font-size: 80px;
+    margin-top: 1.5rem;
+    color: #149eca;
+    animation: spinner 9s linear infinite;
   }
 }

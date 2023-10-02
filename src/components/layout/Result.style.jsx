@@ -8,17 +8,22 @@ export const ResultBox = styled.div`
   font-family: sans-serif;
 `
 
-export const Result = styled.h1`
+export const Title = styled.h1`
   font-size: 60px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-
-  @media (max-width: 425px) {
-  & {
-    
-  }
-}
+  margin: 0;
 `
+
+export const Result = styled.input`
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  left: 10px;
+  max-width: 310px;
+  border: none;
+  outline: 0;
+  min-width: auto;
+  text-align: right;
+  color: #fff;
+  background-color: #000;
+  `

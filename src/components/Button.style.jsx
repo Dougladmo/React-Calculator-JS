@@ -101,13 +101,16 @@ export const ZeroButton = styled.button`
 `
 
 export const CientificButton = styled.button`
-   background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
   color: #fff;
   width: 80px;
   height: 80px;
   border: none;
   margin: 5px;
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 50%;
   cursor: pointer;
 
