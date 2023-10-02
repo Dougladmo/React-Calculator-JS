@@ -50,6 +50,7 @@
     display: none;
   }
   .title {
+    margin: 0 auto;
     max-width: 390px;
     display: flex;
     gap: 0;
@@ -57,7 +58,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   :root {
     background-color: #000;
   }
