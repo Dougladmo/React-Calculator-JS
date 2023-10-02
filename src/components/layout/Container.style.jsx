@@ -22,8 +22,8 @@ export const ContainerCientific = styled.div`
   margin-right: 0;
   background-color: #000;
   max-height: 400px;
-  max-width: 370px;
-  min-width: auto;
+  max-width: 400px;
+  min-width: 200px;
   height: auto;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;

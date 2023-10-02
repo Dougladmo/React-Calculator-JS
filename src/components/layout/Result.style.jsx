@@ -25,5 +25,5 @@ export const Result = styled.input`
   min-width: auto;
   text-align: right;
   color: #fff;
-  background-color: #000;
+  background-color: transparent;
   `

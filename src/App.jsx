@@ -110,7 +110,7 @@ function App() {
         <div className="buttons">
       <Container>
         <ResultBox>
-          <Result value={num} disabled/>
+          <Result value={num}/>
         </ResultBox>
           <GrayButton onClick={clear}>AC</GrayButton>
           <GrayButton onClick={changeSign}>+/-</GrayButton>
