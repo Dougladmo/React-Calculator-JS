@@ -19,7 +19,7 @@ export const Result = styled.input`
   padding-bottom: 30px;
   position: relative;
   left: 10px;
-  max-width: 310px;
+  max-width: 520px;
   border: none;
   outline: 0;
   min-width: auto;

@@ -23,7 +23,7 @@ function App() {
   const numberInput = (e) => {
     const input = e.target.value
     if (num === 0) {
-      setNum(input.split("", 3))
+      setNum(input)
     } else {
       setNum(num + input)
     }
@@ -42,27 +42,27 @@ function App() {
 
   const changeSign = () => {
     if (num > 0) {
-      setNum(-num)
+      setNum(parseFloat(-num))
     } else {
-      setNum(num * -1)
+      setNum(parseFloat(num * -1))
     }
   }
 
   const squareRoot = () => {
-    setNum(Math.sqrt(num))
+    setNum((Math.sqrt(num)).toLocaleString('pt-BR'))
   }
 
   const calculate = () => {
     if (operator === "/") {
-      setNum(firstNum / num)
+      setNum((firstNum / num).toLocaleString('pt-BR'))
     } else if (operator === "X") {
-      setNum(firstNum * num)
+      setNum((firstNum * num).toLocaleString('pt-BR'))
     } else if (operator === "-") {
-      setNum(firstNum - num)
+      setNum((firstNum - num).toLocaleString('pt-BR'))
     } else if (operator === "+") {
-      setNum(parseFloat(firstNum) + parseFloat(num))
+      setNum((parseFloat(firstNum) + parseFloat(num)).toLocaleString('pt-BR'))
     } else if (operator === "xn") {
-      setNum(firstNum**num)
+      setNum((firstNum**num.toLocaleString('pt-BR')))
     }
   }
 
@@ -76,29 +76,29 @@ function App() {
       for (let i = 1; i <= num; i++) {
         sum = sum * i
       }
-      setNum(sum)
+      setNum((sum.toLocaleString('pt-BR')))
     } else {
       for (let i = 1; i <= num - 1; i++) {
         sum = sum * i
       }
-      setNum(sum)
+      setNum((sum.toLocaleString('pt-BR')))
     }
   }
 
   const logTen = () => {
-    setNum(Math.log10(num))
+    setNum((Math.log10(num)).toLocaleString('pt-BR'))
   }
 
   const logTwo = () => {
-    setNum(Math.log2(num))
+    setNum((Math.log2(num)).toLocaleString('pt-BR'))
   }
 
   const LogN = () => {
-    setNum(Math.log(num))
+    setNum((Math.log(num)).toLocaleString('pt-BR'))
   }
 
   const squared = () => {
-    setNum(num**2)
+    setNum((num**2).toLocaleString('pt-BR'))
   }
 
   return (

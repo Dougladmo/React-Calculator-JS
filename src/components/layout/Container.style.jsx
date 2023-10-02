@@ -6,7 +6,6 @@ export const Container = styled.div`
   min-width: auto;
   height: auto;
   padding: 10px 10px 15px 10px;
-  border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 
@@ -27,5 +26,5 @@ export const ContainerCientific = styled.div`
   height: auto;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  padding: 10px 0 15px 10px;
+  padding: 233.5px 0 15px 10px;
 `
