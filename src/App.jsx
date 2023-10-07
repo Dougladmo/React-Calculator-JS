@@ -165,12 +165,12 @@ function App() {
       <div className="cientific_box">
       <ContainerCientific>
           <CientificButton onClick={squareRoot} ><FaSquareRootVariable /> </CientificButton>
-          <CientificButton onClick={squared} >X^2</CientificButton>
-          <CientificButton onClick={operatorHandler} value={'xn'}>X^n</CientificButton>
+          <CientificButton onClick={squared} >X^<sup>2</sup></CientificButton>
+          <CientificButton onClick={operatorHandler} value={'xn'}>X^<sup>n</sup></CientificButton>
           <CientificButton onClick={factorial}>!</CientificButton>
           <CientificButton onClick={LogN} >ln</CientificButton>
-          <CientificButton onClick={logTen} >Log 10</CientificButton>
-          <CientificButton onClick={logTwo} >Log 2</CientificButton>
+          <CientificButton onClick={logTen} >Log <sub>10</sub></CientificButton>
+          <CientificButton onClick={logTwo} > Log<sub>2</sub></CientificButton>
           <CientificButton ><FaReact className="react_btn" /></CientificButton>
       </ContainerCientific>
       </div>

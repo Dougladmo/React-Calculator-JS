@@ -1,11 +1,31 @@
-# React + Vite
+<h1 align="center"> React Calculator </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# React-Calculator-JS
+<p align="center">
+  <img alt="Projeto React Calculator" src=".github/preview.jpg" width="100%">
+</p>
 
-[SITE NO AR](https://react-calculator-js.vercel.app/)
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- React js
+- Javascript
+- React Hooks
+- Styled Components
+- CSS
+- Git e Github
+- Figma
+
+## 💻 Projeto
+
+Uma Calculadora Ciêntifica feita em React !!
+
+- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
