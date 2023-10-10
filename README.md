@@ -26,4 +26,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Uma Calculadora Ciêntifica feita em React !!
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado, online](https://react-calculator-js.vercel.app)
